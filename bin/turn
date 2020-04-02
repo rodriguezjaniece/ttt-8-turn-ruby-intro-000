@@ -4,5 +4,14 @@ require_relative '../lib/turn'
 board [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts " Welcome to Tic Tac Toe!"
 
-display_board(board)
- 9.times turn(board)
+display_board(board) 
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+
